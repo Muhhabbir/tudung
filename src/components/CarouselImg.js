@@ -1,4 +1,4 @@
-import { CarouselItem, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 
 const CarouselImg = () => {
     return (
