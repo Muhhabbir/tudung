@@ -1,23 +1,57 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, Dropdown, NavDropdown } from "react-bootstrap";
 
 const NavigationBar = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
-            <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar bg="dark" expand="lg" color="white">
+            <Container className="text-white">
+    <Navbar.Brand href="#home" className="text-white">SI PALING IMUT</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
+        <Dropdown id="dropdown1">
+    <Dropdown.Toggle id="dropdown-button-dark-example1" variant="dark">
+      FEATURED
+    </Dropdown.Toggle>
+      <Dropdown.Menu variant="dark">
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+    <Dropdown id="dropdown2">
+    <Dropdown.Toggle id="dropdown-button-dark-example1" variant="dark">
+      COLLECTIONS
+    </Dropdown.Toggle>
+      <Dropdown.Menu variant="dark">
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+    <Dropdown id="dropdown3">
+    <Dropdown.Toggle id="dropdown-button-dark-example1" variant="dark">
+      CATEGORIES
+    </Dropdown.Toggle>
+      <Dropdown.Menu variant="dark">
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+
       </Nav>
     </Navbar.Collapse>
   </Container>
