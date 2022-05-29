@@ -1,8 +1,4 @@
 import { Carousel } from "react-bootstrap";
-<<<<<<< HEAD
-=======
-
->>>>>>> dc5eda0b641a96787eb741dd8fcd09aa86b78c1e
 const CarouselImg = () => {
     return (
         <div>
