@@ -1,43 +1,38 @@
-import { Card, Button, Container } from "react-bootstrap";
+import { Container, section } from "react-bootstrap";
+import '../style/landingPage.css';
 const Contents = () => {
     return (
-        <div>
-            <Container>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-            </Container>
+    <div className="cardsaya">
+    <Container>
+        <div class="container-fluid">
+    <div class="row">
+        <div class="card-group">
+            <div class="card">
+                <img src="https://asset.kompas.com/crops/taRfpgjlHmmataHLSuPIEbh6rZI=/101x0:601x500/340x340/data/photo/2021/08/31/612e464ae9750.jpg" class="card-img-bottom" alt="..."></img>
+                <div class="card-body">
+                    <h5 class="card-title">Judul Card</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://asset.kompas.com/crops/WbjMFSsixI5N-mc6KnymBbkqqoY=/192x128:1728x1152/750x500/data/photo/2021/06/21/60d031a793a44.jpg" class="card-img-top" alt="..."></img>
+                <div class="card-body">
+                    <h5 class="card-title">Judul Card</h5>
+                    <p class="card-text">Vestibulum id metus ac nisl bibendum nibh scelerisque non purus in suspendisse.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://kucingpedia.com/wp-content/uploads/2018/05/Gambar-Kucing-Scottish-Fold-Lucu-630x380.jpg" class="card-img-top" alt="..."></img>
+                <div class="card-body">
+                    <h5 class="card-title">Judul Card</h5>
+                    <p class="card-text">Pulvinar leo id risus enim. Bibendum varius tincidunt pellentesque malesuada in.</p>
+                </div>
+            </div>
         </div>
+        </div>
+    </div>
+    </Container>
+    </div>
     )
 }
 
