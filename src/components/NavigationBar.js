@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav, Dropdown, NavDropdown } from "react-bootstrap";
+import '../style/landingPage.css';
 
 const NavigationBar = () => {
     return (
@@ -39,7 +40,7 @@ const NavigationBar = () => {
     </Dropdown>
     <Dropdown id="dropdown3">
     <Dropdown.Toggle id="dropdown-button-dark-example1" variant="dark">
-      CATEGORIES
+      RAS KUCING 
     </Dropdown.Toggle>
       <Dropdown.Menu variant="dark">
         <Dropdown.Item href="#/action-1" active>
