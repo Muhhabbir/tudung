@@ -14,3 +14,6 @@
     height: 343px;
     width: auto;
 }
+.navbar-toggler {
+    background-color: white !important;
+}
