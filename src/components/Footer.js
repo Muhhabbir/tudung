@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="footer fluid bg-dark text-white">
       <div>
-        <Container>
+        <Container class="mt-10">
           <Row>
             <Col xs>
-              Newsletter subscription
+              <h5>Newsletter subscription</h5>
               <p>
                 Sign up for Tudungpeople updates to receive information about
                 new arrivals and future events.
@@ -19,20 +19,20 @@ const Footer = () => {
       <div>
         <Container>
           <Row>
-            <Col xs={{ order: 12 }}>
-              <h6>Account</h6>
+            <Col>
+              <h5>Account</h5>
               <p>Rewards Programme</p>
               <p>Returns & Exchanges</p>
             </Col>
-            <Col xs={{ order: 1 }}>
-              <h6>About Us</h6>
+            <Col>
+              <h5>About Us</h5>
               <p>Careers</p>
               <p>Global</p>
               <p>TP Edit</p>
               <p>Contact Us</p>
             </Col>
-            <Col xs={{ order: 1 }}>
-              <h6>Customer Care</h6>
+            <Col>
+              <h5>Customer Care</h5>
               <p>Privacy Policy</p>
               <p>Refund Policy</p>
               <p>Shipping Policy</p>

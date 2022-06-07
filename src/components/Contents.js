@@ -29,7 +29,7 @@ const Contents = () => {
                 </div>
             </div>
             <div class="card">
-                <img src="https://kucingpedia.com/wp-content/uploads/2018/05/Gambar-Kucing-Scottish-Fold-Lucu-630x380.jpg" class="card-img-top" alt="..."></img>
+                <img src="https://www.greeners.co/wp-content/uploads/2021/03/Kucing-Domestik-1.jpg" class="card-img-top" alt="..."></img>
                 <div class="card-body">
                     <h5 class="card-title">Ras Kasdroen</h5>
                     <p class="card-text">Pulvinar leo id risus enim. Bibendum varius tincidunt pellentesque malesuada in.</p>
